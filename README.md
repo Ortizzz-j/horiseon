@@ -24,4 +24,4 @@ WHEN I view the title element
 THEN I find a concise, descriptive title
 ```
 ## Description
-This repository is dedicated to the Horiseon page for search engine optimization, and social media marketing. Link to the website. https://ortizzz-j.github.io/horiseon/#social-media-marketing. 
+This repository is dedicated to the Horiseon page for search engine optimization, and social media marketing. Link to the website. https://ortizzz-j.github.io/horiseon/#social-media-marketing. The purpose of this project was to clean up the code in both the html and the css to make it look less cluttered and for the html to have proper naming that is a little more descriptive.
