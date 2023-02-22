@@ -32,6 +32,9 @@ header h1, .seo {
     margin-left: 25px;
 }
 
+
+/* Took out header tag as this is the only ul and li in the code. If there was more i would add an appropriate html element such as a class or id to select and single out this group of ul and li.*/
+
 ul, li {
     list-style-type: none;
     display: inline-block;
@@ -53,6 +56,9 @@ a {
     background-size: cover;
     background-position: center;
 }
+
+/* Below i used article-content to group together the elements in the html file with the id of content because they were all styled the same and it makes the css look cleaner and easier to review. */
+
 .article-content {
     margin-bottom: 20px;
     padding: 50px;
@@ -85,11 +91,15 @@ p {
     margin-left: 25px;
 }
 
+/* Changed content from class to id because it is describing the main section. */
+
 #content {
     width: 75%;
     display: inline-block;
     margin-left: 20px;
 }
+
+/* Changed div to aside because it helps to describe where the text is going to be located making it easier to understand what to do with it in the css. */
 
 aside {
     margin-right: 20px;
@@ -101,6 +111,9 @@ aside {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: #2589bd;
 }
+
+
+/* Again same as with the article-content class i did the same by consolidating this part of the css into a benefit class as it describes what this section is about and all of the tags in the css had the same styling.*/
 
 .benefit {
     margin-bottom: 32px;
