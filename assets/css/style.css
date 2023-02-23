@@ -59,7 +59,7 @@ a {
 
 /* Below i used article-content to group together the elements in the html file with the id of content because they were all styled the same and it makes the css look cleaner and easier to review. */
 
-.article-content {
+section article {
     margin-bottom: 20px;
     padding: 50px;
     height: 300px;
@@ -68,11 +68,11 @@ a {
     color: #ffffff;
 }
 
-.article-content img {
+section img {
     max-height: 200px;
 }
 
-.article-content h2 {
+section h2 {
     margin-bottom: 20px;
     font-size: 36px;
 }
